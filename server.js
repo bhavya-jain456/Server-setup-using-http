@@ -3,7 +3,7 @@ const http = require('http')
 const port = 3000;
 const bodyParser = require('body-parser');
 let url=require('url');
-const users=require('../sample2.json')
+const users=require('./sample2.json')
 const server = http.createServer(async (req, res) => {
 
     if (req.method === 'GET') {
